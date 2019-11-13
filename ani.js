@@ -18,6 +18,7 @@ app.delete("/",function(req,res)
 {
     console.log("delete data");
     res.send("delete data");
+    ba43763
 });
 
 app.put("/",function(req,res)
