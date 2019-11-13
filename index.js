@@ -14,8 +14,3 @@ app.post("/",function(req,res)
     res.send("insert data");
 });
 
-app.put("/",function(req,res)
-{
-    console.log("update data");
-    res.send("updated data");
-});
