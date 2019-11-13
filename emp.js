@@ -1,8 +1,24 @@
+const express=require("express");
+const mysql=require("mysql");
+const app=express();
 
-app.put("/",function(req,res)
+app.get("/",function(req,res)
 {
-    console.log("update data");
-    res.send("updated data");
+    console.log("fetcha data");
+    res.send("fetch data");
+});
+
+app.post("/",function(req,res)
+{
+    console.log("insert data");
+    res.send("insert data");
+});
+
+app.delete("/",function(req,res)
+{
+    console.log("delete data");
+    res.send("delete data");
+    ba43763
 });
 
 app.put("/",function(req,res)
@@ -10,10 +26,3 @@ app.put("/",function(req,res)
     console.log("update data");
     res.send("updated data");
 });
-
-app.put("/",function(req,res)
-{
-    console.log("update data");
-    res.send("updated data");
-});
-ba43763

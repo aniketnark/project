@@ -14,4 +14,15 @@ app.post("/",function(req,res)
     res.send("insert data");
 });
 
-ba43763
+app.delete("/",function(req,res)
+{
+    console.log("delete data");
+    res.send("delete data");
+    ba43763
+});
+
+app.put("/",function(req,res)
+{
+    console.log("update data");
+    res.send("updated data");
+});
